@@ -43,6 +43,8 @@ sonar {
     property "sonar.projectKey", "DHE1999_COMP102"
     property "sonar.organization", "dhe1999"
     property "sonar.host.url", "https://sonarcloud.io"
+    property 'sonar.core.codeCoveragePlugin', 'junit'
+    property 'sonar.junit.reportPaths', "**/TEST-*.xml"
   }
 }
 
